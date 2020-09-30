@@ -24,4 +24,8 @@ public class Dependency {
 	{
 		return getClassName().toUpperCase();
 	}
+	public int multiply(int i, int j)
+	{
+		return 0;
+	}
 }
