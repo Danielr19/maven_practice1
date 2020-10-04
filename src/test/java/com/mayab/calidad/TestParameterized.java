@@ -39,6 +39,7 @@ public class TestParameterized {
 	public void test() {
 		
 	}
+	@Test
 	public void givenTwoNumbersShouldBeMultiplyResult() {
 		int resultado = multiplierOne * multiplierTwo;
 		assertThat(expected, is(resultado));
