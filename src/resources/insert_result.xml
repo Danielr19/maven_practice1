@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<ALUMNO ID='1' NOMBRE='Juan' CALIFICACION='8.6' EMAIL='correoJuan@correo' EDAD='32'/>
+	<ALUMNO ID='2' NOMBRE='Maria' CALIFICACION='9.8' EMAIL='CORREO' EDAD='23'/>
+</dataset>
