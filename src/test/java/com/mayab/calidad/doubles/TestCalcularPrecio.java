@@ -9,7 +9,8 @@ import static org.mockito.Mockito.mock;
 import static org.hamcrest.MatcherAssert.assertThat; 
 import static org.hamcrest.Matchers.*;
 import static org.mockito.Mockito.when;
-import static org.testing.Assert.assertEquals;
+//import static org.testing.Assert.assertEquals;
+
 
 //3er test
 import static org.mockito.Matchers.*;

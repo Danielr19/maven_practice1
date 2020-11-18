@@ -33,7 +33,8 @@ public class TestDAOMockito {
 	{
 		baseDatos = mock(DAO.class);
 		fake = new DAOFake(); //Esta linea es la que quisiera no usar 
-		alumno = new Alumno("Daniel", 20, 8.5f, "00368487@anahuac.mx");
+		//alumno = new Alumno("Daniel", 20, 8.5f, "00368487@anahuac.mx");
+		alumno = new Alumno(1, "Daniel", 20, 8.5f, "00368487@anahuac.mx");
 		setupBaseDatos();
 		fake.addAlumno(alumno); //Esta linea es la que quisiera no usar 
 		

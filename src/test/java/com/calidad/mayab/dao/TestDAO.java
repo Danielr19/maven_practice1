@@ -7,7 +7,7 @@ import static org.mockito.Mockito.mock;
 import static org.hamcrest.MatcherAssert.assertThat; 
 import static org.hamcrest.Matchers.*;
 import static org.mockito.Mockito.when;
-import static org.testing.Assert.assertEquals;
+//import static org.testing.Assert.assertEquals;
 
 //3er test
 import static org.mockito.Matchers.*;
@@ -26,7 +26,8 @@ public class TestDAO {
 	public void beforeTest()
 	{
 		fake = new DAOFake();
-		alumno = new Alumno("Daniel", 20, 8.5f, "danrodarc@outlook.com");
+		//alumno = new Alumno("Daniel", 20, 8.5f, "danrodarc@outlook.com");
+		alumno = new Alumno(1, "Daniel", 20, 8.5f, "00368487@anahuac.mx");
 		//fake.addAlumno(alumno);
 	}
 	@Test

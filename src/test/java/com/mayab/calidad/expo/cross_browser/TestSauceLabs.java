@@ -1,4 +1,4 @@
-package com.mayab.calidad.expo.cross_browser;
+/*package com.mayab.calidad.expo.cross_browser;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
@@ -46,7 +46,7 @@ public class TestSauceLabs {
 
 	  //@Test
 	  //public void testAdd() throws Exception {
-	    driver.get("https://mern-crud.herokuapp.com/");
+/*	    driver.get("https://mern-crud.herokuapp.com/");
 	    driver.findElement(By.xpath("//div[@id='root']/div/div[2]/button")).click();
 	    driver.findElement(By.name("name")).click();
 	    driver.findElement(By.name("name")).clear();
@@ -99,5 +99,5 @@ public class TestSauceLabs {
     driver.quit();
     }
 
-}
+}*/
 

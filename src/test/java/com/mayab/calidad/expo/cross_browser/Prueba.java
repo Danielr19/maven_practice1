@@ -29,12 +29,12 @@ import org.openqa.selenium.support.ui.Select;
 public class Prueba {
 	
      public static void main(String[] args) throws Exception {
+    
+    //IMPORTANTE usuario para la foto es Danrodarc que es mi nombre Daniel Rodríguez Arceo
     	 
      final String URL = "https://Danrodarc:a5f454ba-51b1-40b8-8d5d-3d4ac5ba0ede@ondemand.us-west-1.saucelabs.com:443/wd/hub";
      DesiredCapabilities caps = DesiredCapabilities.chrome(); 
  	 caps.setCapability("platform", "Windows 10");
- 	 //caps.setCapability("platform", "Linux");
- 	//caps.setCapability("platform", "macOS 10.13");
      caps.setCapability("version", "latest");
      caps.setCapability("name", "chrome");
      caps.setCapability("extendedDebugging", "true");

@@ -15,7 +15,7 @@ public class CalcularPrecio {
 	public float Calcular(CalcularIVA formula) {
 		//formulaIVA = new CalcularIVAYucatan();
 		formulaIVA = formula;
-		float iva = formulaIVA.getIVA(porcentaje, precioProducto)
+		float iva = formulaIVA.getIVA(porcentaje, precioProducto);
 		return iva + precioProducto;
 	}
 }
