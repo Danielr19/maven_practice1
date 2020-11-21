@@ -1,4 +1,4 @@
-package com.calidad.mayab.dao;
+package com.mayab.calidad.dao;
 
 import java.util.ArrayList;
 import java.util.HashMap;

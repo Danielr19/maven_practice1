@@ -1,4 +1,4 @@
-package com.calidad.mayab.dao;
+package com.mayab.calidad.dao;
 //DAO Data Acces Object
 //COMENTARIO PARA PRUEBA #1
 public class Alumno {

@@ -13,8 +13,9 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-import com.calidad.mayab.dao.Alumno;
-import com.calidad.mayab.dao.AlumnoDAOSQL;
+import com.mayab.calidad.dao.Alumno;
+import com.mayab.calidad.dao.AlumnoDAOSQL;
+
 import static org.junit.Assert.*;
 
 import static org.hamcrest.Matchers.*;
@@ -33,8 +34,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.dbunit.Assertion;
-
-import com.calidad.mayab.dao.AlumnoDAOSQL;
 
 public class TestAlumnoDAOOracleInsert extends DBTestCase {
 

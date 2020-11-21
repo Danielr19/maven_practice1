@@ -1,4 +1,4 @@
-package com.calidad.mayab.dao;
+package com.mayab.calidad.dao;
 
 import static org.junit.Assert.*;
 
@@ -21,6 +21,11 @@ import org.mockito.Mockito;
 //Crear comportamiento al vuelo
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
+
+import com.mayab.calidad.dao.Alumno;
+import com.mayab.calidad.dao.DAO;
+import com.mayab.calidad.dao.DAOFake;
+
 import org.*;
 public class TestDAOMockito {
 

@@ -1,4 +1,4 @@
-package com.calidad.mayab.dao;
+package com.mayab.calidad.dao;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -14,6 +14,9 @@ import static org.mockito.Matchers.*;
 //Crear comportamiento al vuelo
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
+
+import com.mayab.calidad.dao.Alumno;
+import com.mayab.calidad.dao.DAOFake;
 
 
 public class TestDAO {
