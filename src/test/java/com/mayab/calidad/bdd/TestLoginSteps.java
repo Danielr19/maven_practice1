@@ -1,4 +1,4 @@
-package com.mayab.calidad.StepDefinitions;
+package com.mayab.calidad.bdd;
 
 import org.openqa.selenium.WebDriver;
 
