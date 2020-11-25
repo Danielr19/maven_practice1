@@ -1,5 +1,4 @@
 /target
-Settings/
 .classpath
 .project
-.settings/
+/.settings/
