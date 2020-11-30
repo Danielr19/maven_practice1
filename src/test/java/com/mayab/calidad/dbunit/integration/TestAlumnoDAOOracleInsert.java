@@ -39,11 +39,10 @@ public class TestAlumnoDAOOracleInsert extends DBTestCase {
 
 	public TestAlumnoDAOOracleInsert(String name)
 	{
-			super(name);
-			System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_DRIVER_CLASS, "oracle.jdbc.driver.OracleDriver"); //.driver.Or...
-			System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_CONNECTION_URL, "jdbc:oracle:thin:@localhost:1522:xe");
-			System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_USERNAME, "dbunit");
-			System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_PASSWORD, "dbunit");	
+		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_DRIVER_CLASS, "oracle.jdbc.driver.OracleDriver");
+		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_CONNECTION_URL, "jdbc:oracle:thin:@localhost:1521:xe");
+		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_USERNAME, "travis");
+		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_PASSWORD, "travis");
 	}
 		
 	@Before
@@ -302,7 +301,7 @@ public class TestAlumnoDAOOracleInsert extends DBTestCase {
 	public void testGetAlumno() throws DataSetException {
 		
 		Alumno a = new Alumno();
-		a.setId(2);
+		a.setId(2);	
 		a.setNombre("Maria");
 		a.setCalificacion(9.8f);
 		a.setEmail("CORREO");
