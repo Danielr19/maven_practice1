@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import org.dbunit.PropertiesBasedJdbcDatabaseTester;
+
 import java.sql.*;
 public class AlumnoDAOSQL implements AlumnoDAO{
 
@@ -29,7 +32,7 @@ public class AlumnoDAOSQL implements AlumnoDAO{
             //DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
 
             //antes era hr y 123
-            con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:xe","dbunit","dbunit");  
+            con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","travis","travis");  
             
         }catch(Exception e){System.out.println(e);}  
         return con;  
